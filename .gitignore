@@ -11,6 +11,7 @@ img/
 *.mdb
 *.pdb
 *.sqlite3
+*.sqlite
 
 ### Python ###
 # Byte-compiled / optimized / DLL files

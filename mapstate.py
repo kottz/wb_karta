@@ -1,7 +1,6 @@
 import pandas
-import wbdata
 from indicatordata import IndicatorData
-
+import requests_cache
 
 class MapState():
 
