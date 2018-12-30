@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron text-center">
+    <h1>wb_karta ergergerg </h1>
+    <p class="lead">det här är ett test.</p>
+</div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">{{ ms.date }}<th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <th scope="col">5</th>
+        {% for key in ms.countries %}
+        <td>{{ key }}</td>
+        {% endfor %}
+      </tr>
+      <tr>
+        <th scope="col">5</th>
+        {% for key in ms.countries %}
+        <td style="color: {{ ms.get_color(ms.indicator.get_percentage(key,ms.date))}}">{{ ms.countries[key] }}</td>
+        {% endfor %}
+      </tr>
+  </tbody>
+
+</table>
+
+{% endblock %}
+

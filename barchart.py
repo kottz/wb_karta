@@ -15,12 +15,12 @@ def get_color(value):
     if value < 255:
         redValue = 255
         greenValue = math.sqrt(value) * 16
-        greenValue = round(greenValue)
+        greenValue = int(greenValue)
     else:
         greenValue = 255
         value = value - 255
         redValue = 255 - (value * value / 255)
-        redValue = round(redValue)
+        redValue = int(redValue)
     return '#' + f"{redValue:0{2}x}" + f"{greenValue:0{2}x}" + '44'
 
 print(get_color(300))

@@ -1,0 +1,16 @@
+ <table id="data_table" class="table">
+   <thead>
+     <tr>
+       <th>Land</th>
+       <th>Värde</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for key in ms.countries %}
+      <tr>
+        <td>{{ key }}</td>
+        <td style="color: {{ ms.get_color(ms.indicator.get_percentage(key,ms.date))}}">{{ ms.countries[key] }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
