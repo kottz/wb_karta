@@ -11,4 +11,7 @@ def index():
     return render_template('index.html', ms=ms)
 
 
-
+@app.route('/indicator/<indicator>')
+def indicator(indicator):
+    ms.set_indicator(indicator)
+    return render_template('index.html', ms=ms)

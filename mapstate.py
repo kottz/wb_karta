@@ -20,6 +20,11 @@ class MapState():
         self.date = date
         self.update_map()
 
+    def set_indicator(self, indicator):
+        self.indicator = IndicatorData(indicator)
+        self.countries = dict.fromkeys(self.indicator.get_country_list())
+        self.update_map()
+
     def __str__(self):
        return 'år: ' + self.date + '\n' + str(self.countries)
 

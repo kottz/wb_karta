@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a9d616d-497b-468f-b886-76716ea2aa0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/includes/_navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barchart.py" beforeDir="false" afterPath="$PROJECT_DIR$/barchart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/indicatordata.py" beforeDir="false" afterPath="$PROJECT_DIR$/indicatordata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mapstate.py" beforeDir="false" afterPath="$PROJECT_DIR$/mapstate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,36 +18,38 @@
     <session id="-1351947192">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="11" />
-          <entry key="py" value="8" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="11" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="html" value="7163" />
-          <entry key="py" value="4953" />
+          <entry key="html" value="7711" />
+          <entry key="py" value="5280" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="7163" />
+          <entry key="HTML" value="7711" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="4953" />
+          <entry key="Python" value="5280" />
         </counts>
       </usages-collector>
     </session>
@@ -65,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+            <state relative-caret-position="504">
+              <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -86,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flaskapp.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="288">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
               <folding>
                 <element signature="e#0#84#0" expanded="true" />
               </folding>
@@ -101,10 +101,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mapstate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="468">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+                <marker date="1546198024073" expanded="true" signature="609:765" ph="..." />
               </folding>
             </state>
           </provider>
@@ -113,10 +114,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/indicatordata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1404">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1546056723236" expanded="true" signature="2784:2793" ph="..." />
+                <marker date="1546197808386" expanded="true" signature="2685:2694" ph="..." />
               </folding>
             </state>
           </provider>
@@ -124,20 +126,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/indicator.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#740#745#0" expanded="true" />
-                <element signature="e#9746#9751#0" expanded="true" />
-                <element signature="e#18759#18764#0" expanded="true" />
-                <element signature="e#28936#28941#0" expanded="true" />
-                <element signature="e#53773#53778#0" expanded="true" />
-                <element signature="e#54676#54681#0" expanded="true" />
-                <element signature="e#54881#54886#0" expanded="true" />
-                <element signature="e#57832#57837#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -188,9 +177,10 @@
         <option value="$PROJECT_DIR$/templates/indicator.html" />
         <option value="$PROJECT_DIR$/templates/includes/indicators.html" />
         <option value="$PROJECT_DIR$/templates/includes/_indicators.html" />
-        <option value="$PROJECT_DIR$/mapstate.py" />
-        <option value="$PROJECT_DIR$/indicatordata.py" />
         <option value="$PROJECT_DIR$/templates/includes/_table.html" />
+        <option value="$PROJECT_DIR$/indicatordata.py" />
+        <option value="$PROJECT_DIR$/mapstate.py" />
+        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
@@ -206,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,6 +218,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,7 +354,7 @@
     <frame x="2" y="56" width="1916" height="1022" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12302006" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.060190074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -398,36 +388,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index2.html" />
     <entry file="file://$PROJECT_DIR$/templates/index3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -438,32 +406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/indicator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#740#745#0" expanded="true" />
-            <element signature="e#9746#9751#0" expanded="true" />
-            <element signature="e#18759#18764#0" expanded="true" />
-            <element signature="e#28936#28941#0" expanded="true" />
-            <element signature="e#53773#53778#0" expanded="true" />
-            <element signature="e#54676#54681#0" expanded="true" />
-            <element signature="e#54881#54886#0" expanded="true" />
-            <element signature="e#57832#57837#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/includes/indicators.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/includes/_indicators.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/includes/indicators.html" />
     <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/country_list/country_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -485,35 +428,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp.py">
+    <entry file="file://$PROJECT_DIR$/flaskapp.py" />
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#84#0" expanded="true" />
-          </folding>
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapstate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indicatordata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1546056723236" expanded="true" signature="2784:2793" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/templates/indicator.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/includes/_table.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -525,10 +449,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/includes/_indicators.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+        <state relative-caret-position="504">
+          <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indicatordata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1546197808386" expanded="true" signature="2685:2694" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapstate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1546198024073" expanded="true" signature="609:765" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

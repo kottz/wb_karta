@@ -76,8 +76,6 @@ class IndicatorData():
         val = self.data.loc[(country, date), self.indicator]
         min_val = self.get_min_value()
         max_val = self.get_max_value()
-        print('min: ', min_val, 'max: ', max_val)
-        print((val-min_val) / (max_val-min_val))
         return (val-min_val) / (max_val-min_val)
 
     def get_country_list(self):
